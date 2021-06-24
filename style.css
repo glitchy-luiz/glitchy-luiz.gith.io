@@ -10,6 +10,19 @@ header{
     font-size: 25px;
     font-family: 'Dela Gothic One', cursive;
 }
+footer{
+    border-top: 1px solid #ccc ;
+    background-color:#000000;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
 .listas{
     flex-direction: row;
     color: darkturquoise;
